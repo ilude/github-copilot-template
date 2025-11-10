@@ -439,23 +439,3 @@ check:
 run:
 	uv run python run.py
 ```
-
----
-
-## Customization Notes
-
-**CUSTOMIZE THIS FILE** for your project:
-
-1. **Choose base image:** Python, Node.js, Go, multi-language
-2. **Shell preference:** zsh, bash, fish
-3. **VS Code extensions:** Add language-specific extensions
-4. **Features:** Docker-in-Docker, GitHub CLI, other devcontainer features
-5. **Post-create commands:** Customize initialization for your workflow
-6. **Environment files:** Adjust .env structure for your needs
-7. **Mounts:** Add project-specific volume mounts
-
-**Source:** Consolidated from joyride-python, agent-spike, attempt-one, onboard
-
-**See also:**
-- `dockerfile.instructions.md` for Dockerfile best practices
-- `makefile.instructions.md` for Makefile patterns

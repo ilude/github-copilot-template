@@ -527,23 +527,3 @@ clean: ## Remove generated files
 run: ## Run application
 	@$(UV) run $(PYTHON) run.py
 ```
-
----
-
-## Customization Notes
-
-**CUSTOMIZE THIS FILE** for your project:
-
-1. **Variables:** Set project-specific variables (UV, PYTHON, paths)
-2. **Targets:** Add/remove targets based on your workflow
-3. **Package manager:** Adjust for uv, pip, poetry, or other tools
-4. **Docker:** Add Docker targets if using containers
-5. **Deployment:** Add deployment targets for your infrastructure
-6. **CI/CD:** Align with your CI/CD pipeline commands
-7. **Platform-specific:** Add OS-specific logic if needed
-
-**Source:** Consolidated from joyride-python, agent-spike, attempt-one
-
-**See also:**
-- `testing.instructions.md` for test command patterns
-- `devcontainer.instructions.md` for devcontainer integration

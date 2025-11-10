@@ -391,21 +391,3 @@ Priority order:
 4. **No comments** - Better than bad comments that lie or clutter
 
 Remember: Comments are a failure to make the code self-explanatory. Use them sparingly and wisely.
-
----
-
-## Customization Notes
-
-**ADAPT THIS GUIDE** for your team:
-
-1. **Annotation keywords:** Standardize TODO, FIXME, HACK, etc.
-2. **Docstring style:** Choose numpy, google, or sphinx format
-3. **Comment density:** Set team expectations (minimal vs. generous)
-4. **Review process:** Include comment quality in code reviews
-5. **Language-specific:** Add examples for your primary languages
-
-**Source:** Consolidated from joyride-python, agent-spike, onboard, attempt-one
-
-**See also:**
-- `python.instructions.md` for Python docstring standards
-- Language-specific style guides for your stack

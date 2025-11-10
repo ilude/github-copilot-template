@@ -558,23 +558,3 @@ uv run pytest -W error
 [tool.pytest.ini_options]
 filterwarnings = ["error"]
 ```
-
----
-
-## Customization Notes
-
-**CUSTOMIZE THIS FILE** for your project:
-
-1. **Test command:** uv run pytest OR pytest (choose based on tooling)
-2. **Coverage threshold:** Set minimum coverage percentage
-3. **Test organization:** Adjust structure for your project size
-4. **Markers:** Add project-specific test markers
-5. **Fixtures:** Define commonly used fixtures in conftest.py
-6. **Integration tests:** Add patterns for your specific integrations (DB, APIs, etc.)
-7. **Performance requirements:** Set timing constraints for critical paths
-
-**Source:** Consolidated from agent-spike, joyride-python, mentat-cli, attempt-one
-
-**See also:**
-- `python.instructions.md` for general Python standards
-- `.github/prompts/test.prompt.md` for test execution prompt

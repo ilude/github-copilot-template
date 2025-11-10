@@ -377,22 +377,3 @@ USER ${USER}
 
 CMD ["python", "-m", "worker.main"]
 ```
-
----
-
-## Customization Notes
-
-**CUSTOMIZE THIS FILE** for your project:
-
-1. **Choose base image:** Alpine, Ubuntu, Debian, or distroless
-2. **Package manager:** uv, pip, poetry, or language-specific tools
-3. **Application type:** Web server, worker, CLI, multi-service
-4. **Health checks:** Customize endpoint and timing for your app
-5. **Security requirements:** Add specific security tools or scanning
-6. **Build targets:** Add staging, testing, or other intermediate stages
-
-**Source:** Consolidated from joyride-python, agent-spike, attempt-one
-
-**See also:**
-- `devcontainer.instructions.md` for development container configuration
-- `ignore-files.instructions.md` for .dockerignore management

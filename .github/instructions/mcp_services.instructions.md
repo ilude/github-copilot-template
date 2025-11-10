@@ -317,24 +317,3 @@ Document how MCP fits into your workflow:
 3. Check network connection
 4. Consider caching results
 ```
-
----
-
-## Customization Notes
-
-**CUSTOMIZE THIS FILE** for your project:
-
-1. **Remove if not using MCP** - This is optional
-2. **Document your MCP servers** - Add project-specific integrations
-3. **Add workflow examples** - Show how team uses MCP
-4. **List available tools** - Document what's configured
-5. **Include authentication** - Document API keys/credentials setup
-6. **Add troubleshooting** - Project-specific issues and solutions
-
-**DELETE THIS FILE** if your project doesn't use MCP services.
-
-**Source:** Consolidated from onboard, attempt-one (MCP-enabled projects)
-
-**See also:**
-- `copilot_customization.instructions.md` for maintaining this file
-- Project-specific MCP server documentation
